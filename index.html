@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>3d scroll</title>
+</head>
+<body>
+<div class="container">
+    <section class="gallery">
+
+        <div class="frame">
+            <div class="frame__content">
+               <h2>Beautiful World</h2>
+            </div>
+        </div>
+
+        <div class="frame">
+            <div class="frame__content">
+                <div class="frame-media frame-media_left" style="background-image: url('images/1.jpg')"></div>
+            </div>
+        </div>
+
+        <div class="frame frame_bg">
+            <div class="frame__content">
+                <video class="frame-media frame-media_right" src="media/video_optimized.mp4" autoplay loop muted></video>
+            </div>
+        </div>
+
+        <div class="frame"></div>
+
+        <div class="frame">
+            <div class="frame__content text-right">
+                <h3>Pure World</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae consequatur culpa dolor dolorum eos, fugiat, molestias natus provident ratione sapiente sit sunt voluptas? Consequatur dolores dolorum eius esse sunt?</p>
+            </div>
+        </div>
+
+        <div class="frame frame_bg">
+            <div class="frame__content">
+                <div class="frame-media frame-media_left" style="background-image: url('images/2.jpg')"></div>
+            </div>
+        </div>
+
+        <div class="frame"></div>
+
+        <div class="frame frame_bg">
+            <div class="frame__content">
+                <div class="frame-media frame-media_right"  style="background-image: url('images/3.jpg')"></div>
+            </div>
+        </div>
+    </section>
+    <img src="images/sound.gif" class="soundtrack-btn paused" alt="">
+    <audio src="media/ambient.mp3" class="audio" loop></audio>
+</div>
+</body>
+</html>
